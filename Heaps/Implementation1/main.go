@@ -119,6 +119,7 @@ func main(){
 	fmt.Println(heap)
 	for _, v:=range array{
 		heap.Insert(v)
+		fmt.Println(heap)
 	}
 	
 	fmt.Println("heap after insertion",heap)
